@@ -35,13 +35,14 @@
         <ul class="contacts-nav list">
           <li class="contacts-nav-item" lang="en"><a class="contacts-nav-link link"
               href="mailto:info@devstudio.com">info@devstudio.com
-              <svg class="icon-envelope">
+              <svg class="contacts-nav-icon">
                 <use href="./img/icons.svg#envelope"></use>
               </svg>
             </a></li>
-          <li class="contacts-nav-item"><a class="contacts-nav-link link" href="tel:+380961111111">+38 096 111
+          <li class="contacts-nav-item">
+            <a class="contacts-nav-link link" href="tel:+380961111111">+38 096 111
               11 11
-              <svg class="icon-smartphone">
+              <svg class="contacts-nav-icon">
                 <use href="./img/icons.svg#smartphone"></use>
               </svg>
             </a></li>
@@ -57,13 +58,10 @@
         <!-- ==============PORTFOLIO-BUTTONS=============== -->
         <ul class="radiobuttons-list">
           <li class="radiobuttons-list-item"><button class="portfolio-button" type="button">Все</button></li>
-          <li class="radiobuttons-list-item"><button class="portfolio-button" type="button">Веб-сайты</button>
-          </li>
+          <li class="radiobuttons-list-item"><button class="portfolio-button" type="button">Веб-сайты</button></li>
           <li class="radiobuttons-list-item"><button class="portfolio-button" type="button">Приложения</button></li>
-          <li class="radiobuttons-list-item"><button class="portfolio-button" type="button">Дизайн</button>
-          </li>
-          <li class="radiobuttons-list-item"><button class="portfolio-button" type="button">Маркетинг</button>
-          </li>
+          <li class="radiobuttons-list-item"><button class="portfolio-button" type="button">Дизайн</button></li>
+          <li class="radiobuttons-list-item"><button class="portfolio-button" type="button">Маркетинг</button></li>
         </ul>
 
         <!-- ==============PORTFOLIO-PROJECTS=============== -->
@@ -220,74 +218,72 @@
   </main>
 
   <!-- ==========FOOTER============== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-wrapper">
 
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-wrapper">
-
-        <div class="left-side">
-          <a class="footer-logo link" href="./index.html"><span class="accent-logo">Web</span>Studio</a>
-          <address lang="ru">
-            <ul class="footer-links list">
-              <li class="footer-links-item"><a class="footer-address link"
-                  href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383859"
-                  target="_blank">г.Киев
-                  пр-т Леси Украинки, 26</a></li>
-              <li class="footer-links-item"><a class="footer-links-link link"
-                  href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-              <li class="footer-links-item"><a class="footer-links-link link" href="tel:+380961111111">+38 096 111 11
-                  11</a></li>
-            </ul>
-          </address>
-        </div>
-
-        <div class="right-side">
-          <div class="join-us">
-            <p class="join-us-slogan">присоединяйтесь</p>
-            <ul class="social-links-list list">
-              <li class="social-links-list-item">
-                <svg class="social-links-icon">
-                  <use href="./img/icons.svg#instagram"></use>
-                </svg>
-              </li>
-              <li class="social-links-list-item">
-                <svg class="social-links-icon">
-                  <use href="./img/icons.svg#twitter"></use>
-                </svg>
-              </li>
-              <li class="social-links-list-item">
-                <svg class="social-links-icon">
-                  <use href="./img/icons.svg#facebook"></use>
-                </svg>
-              </li>
-              <li class="social-links-list-item">
-                <svg class="social-links-icon">
-                  <use href="./img/icons.svg#linkedin"></use>
-                </svg>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- =========SUBSCRIBE-INPUT-FORM=========== -->
-        <div class="subscribe-input">
-          <p class="subscribe-slogan join-us-slogan">подпишитесь на рассылку</p>
-
-          <form action="#" class="subscribe-form">
-
-            <label>
-              <input class="input-placeholder" type="email" name="email" placeholder="E-mail" />
-            </label>
-
-            <button type="submit" class="submit-btn button">Подписаться
-              <svg class="submit-icon">
-                <use href="./img/icons.svg#send"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
+      <div class="address-block">
+        <a class="footer-logo link" href="./index.html"><span class="accent-logo">Web</span>Studio</a>
+        <address lang="ru">
+          <ul class="footer-address-list list">
+            <li class="footer-address-list-item"><a class="footer-address link"
+                href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383859"
+                target="_blank">г.Киев пр-т Леси Украинки, 26</a></li>
+            <li class="footer-address-list-item"><a class="footer-address-link link"
+                href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="footer-address-list-item"><a class="footer-address-link link" href="tel:+380961111111">+38 096
+                111 11 11</a></li>
+          </ul>
+        </address>
       </div>
+      <!-- =========JOIN-BLOCK=========== -->
+      <div class="join-block">
+        <b class="join-block-slogan">присоединяйтесь</b>
+        <ul class="social-links-list list">
+          <li class="social-links-list-item">
+            <a href="" class="social-links-link link"><svg class="social-links-icon">
+                <use href="./img/icons.svg#instagram"></use>
+              </svg></a>
+          </li>
+          <li class="social-links-list-item">
+            <a href="" class="social-links-link link"><svg class="social-links-icon">
+                <use href="./img/icons.svg#twitter"></use>
+              </svg></a>
+          </li>
+          <li class="social-links-list-item">
+            <a href="" class="social-links-link link"><svg class="social-links-icon">
+                <use href="./img/icons.svg#facebook"></use>
+              </svg></a>
+          </li>
+          <li class="social-links-list-item">
+            <a href="" class="social-links-link link"><svg class="social-links-icon">
+                <use href="./img/icons.svg#linkedin"></use>
+              </svg></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- =========SUBSCRIBE-BLOCK-FORM=========== -->
+      <div class="subscribe-block">
+        <b class="subscribe-slogan">подпишитесь на рассылку</b>
+
+        <form action="#" class="subscribe-form">
+
+          <label>
+            <input class="subscribe-input" type="email" name="email" placeholder="E-mail" />
+          </label>
+
+          <button type="submit" class="submit-btn button">Подписаться
+            <svg class="submit-icon">
+              <use href="./img/icons.svg#send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+
     </div>
-  </footer>
+  </div>
+</footer>
 </body>
 
 </html>
