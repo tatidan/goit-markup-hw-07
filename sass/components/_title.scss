@@ -1,0 +1,38 @@
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  margin-bottom: 30px;
+  text-align: center;
+}
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.section-title {
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.section-title,
+.feature-title {
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.hero-title,
+.feature-title {
+  text-transform: uppercase;
+}
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-text-color);
+  letter-spacing: 0.06em;
+}
