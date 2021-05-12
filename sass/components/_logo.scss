@@ -1,13 +1,10 @@
-.header-logo,
-.accent-logo,
-.footer-logo {
+.logo-header,
+.logo-accent,
+.logo-footer {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+  @include font(26px, 700, 1.2, 0.03em);
 }
-.header-logo {
+.logo-header {
   color: var(--primary-text-color);
   padding-top: 24px;
   padding-bottom: 24px;
@@ -18,11 +15,11 @@
   }
 }
 
-.footer-logo {
+.logo-footer {
   display: inline-block;
   color: var(--white-color);
   margin-bottom: 33px;
 }
-.accent-logo {
+.logo-accent {
   color: var(--accent-color);
 }

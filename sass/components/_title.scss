@@ -1,38 +1,41 @@
-.hero-title {
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.4;
-  letter-spacing: 0.06em;
-  color: var(--white-color);
-  margin-bottom: 30px;
-  text-align: center;
-}
-.feature-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  margin-bottom: 10px;
-}
 .section-title {
-  font-size: 36px;
+  @include font(36px, 700, 1.2, 0.03em);
   margin-bottom: 50px;
   text-align: center;
 }
-.section-title,
-.feature-title {
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-.hero-title,
-.feature-title {
+.hero-title {
+  @include font(44px, 900, 1.4, 0.06em);
+  color: var(--white-color);
   text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.features-thumb-title {
+  display: inline-block;
+  @include font(14px, 700, 1.2, 0.03em);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.about-thumb-title {
+  display: inline-block;
+  @include font(14px, 700, 1.14, 0.03em);
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.team-member-title {
+  @include font(16px, 500, 1.2, 0.03em);
+  margin-bottom: 10px;
+}
+.join-block-title,
+.subscribe-title {
+  display: inline-block;
+  @include font(14px, 700, 1.1, 0.03em);
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+  margin-top: 12px;
 }
 .project-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+  @include font(18px, 700, 2, 0.06em);
   color: var(--primary-text-color);
-  letter-spacing: 0.06em;
 }

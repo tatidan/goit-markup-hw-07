@@ -1,24 +1,14 @@
-.team-role,
-.feature-description {
+.features-description {
   color: var(--secondary-text-color);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
+  @include font(14px, 400, 1.7, 0.03em);
 }
-.feature-description {
-  margin: 0;
-}
-.team-role {
-  display: inline-block;
-  font-size: 16px;
-  margin: 0 0 16px 0;
+.team-member-description {
+  @include font(16px, 400, 1.7, 0.03em);
+  color: var(--secondary-text-color);
+  margin-bottom: 16px;
 }
 .project-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.9;
+  @include font(16px, 400, 1.9, 0.03em);
   color: var(--secondary-text-color);
-  letter-spacing: 0.03em;
   margin-bottom: 4px;
 }
